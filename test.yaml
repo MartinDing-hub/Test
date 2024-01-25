@@ -37,6 +37,8 @@ jobs:
       scriptLocation: inlineScript
       scriptType: bash
       inlineScript: |
+
+        echo "$pwd"
       
         # submit component job and get the run name
         job_name=$(az ml job create --file single-job-pipeline.yml -g $(resource-group) -w $(workspace) --query name --output tsv)
