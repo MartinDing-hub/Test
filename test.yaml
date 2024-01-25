@@ -33,7 +33,7 @@ jobs:
     displayName: Submit AzureML Job Task
     inputs:
       azureSubscription: $(service-connection)
-      workingDirectory: 'cli/jobs/pipelines-with-components/nyc_taxi_data_regression'
+      workingDirectory: '.'
       scriptLocation: inlineScript
       scriptType: bash
       inlineScript: |
