@@ -43,9 +43,3 @@ jobs:
 
         # Set output variable for next task
         echo "##vso[task.setvariable variable=JOB_NAME;isOutput=true;]$job_name"
-  - task: AzureMLJobWaitTask@1
-    inputs:
-      serviceConnection: 'yanmu-AML-connection-test'
-      resourceGroupName: 'yanmu-AML-Service'
-      azureMLWorkspaceName: 'yanmu-AML-eastus'
-      azureMLJobName: 'wait_for_azureml_job_completion'
