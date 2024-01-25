@@ -4,7 +4,7 @@ trigger:
 - none
 
 variables:
-  service-connection: '7bb1f333-7cf7-403f-85bb-6ebbf169ff69' # replace with your service connection name
+  service-connection: 'yanmu-AML-connection-test' # replace with your service connection name
   resource-group: 'yanmu-AML-Service' # replace with your resource group name
   workspace: 'yanmu-AML-eastus' # replace with your workspace name
 
