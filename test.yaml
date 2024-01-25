@@ -38,6 +38,7 @@ jobs:
       scriptType: bash
       inlineScript: |
 
+        echo "你好，我叫丁彦牧！很高兴认识你们。"
         echo "$pwd"
       
         # submit component job and get the run name
